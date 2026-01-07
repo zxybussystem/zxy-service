@@ -1,6 +1,9 @@
-# Allow all search engines to crawl the entire site
+# Allow all search engines to crawl the site
 User-agent: *
 Allow: /
 
-# Point to your sitemap to help with indexing
+# Prevent indexing of the thank-you page (optional, but recommended for cleaner analytics)
+Disallow: /thank-you.html
+
+# Link to your corrected sitemap
 Sitemap: https://www.zhengxingyun.com.sg/sitemap.xml
